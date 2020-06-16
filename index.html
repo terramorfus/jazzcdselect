@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css"/><!--https://www.w3schools.com/tags/tag_link.asp Link to an external style sheet-->
+</head>
+
+<body id="loginPage">
+    <div class="container">
+        <div class="main">
+            <!--shop logo-->
+            <img src="logo.png" class="logo">
+            <form id="form_id" method="post" name="form">
+                <!--username input-->
+                <label>Username</label>
+                <input type="text" name="username" id="username" />
+                <!--password input-->
+                <label>Password</label>
+                <input type="password" name="password" id="password" />
+                <!--submit button-->
+                <input type="button" value="login" id="login" onclick="validate()" />
+            </form>
+        </div>
+    </div>
+    <script src="code.js"></script><!--https://www.w3schools.com/tags/att_script_src.asp  Connects javascript to this html page-->
+</body>
+
+</html>
